@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #F5F5FA;
+}
+
+/*header */
+
+#divlogo {
+  justify-self: center;
+}
+
+#list {
+  display: flex;
+  justify-self: center;
+}
+
+#list li {
+  margin-right: 100px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#headerButton {
+  justify-self: center;
+}
+#headerButton button {
+  width: 120px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: #57419D;
+  color: #F5F5FA;
+
+}
+
+#divHeader {
+  margin: 30px;
+  display: grid;
+  align-items: center;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100px;
+}
+
+/*body */
+
+
+#bodySection {
+  height: 800px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  place-items: center center;
+  margin: 30px;;
+}
+
+#bodySection div {
+  height: 60%;
+  width: 100%;
+}
+
+
+#Form, form {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start
+}
+
+#Form form input {
+  border-color: #381F87;
+  width: 500px;
+  height: 40px;
+  margin: 8px;
+}
+
+#Form h3 {
+  color: #4A4E69;
+  margin: 20px;
+}
+
+input::placeholder {
+  padding-left: 25px;
+  color: #61538C;
+  font-size: 15px;
+}
+
+#Form #button {
+  margin-top: 20px;
+  background: #57419D;
+  color: #F5F5FA;
+  width: 200px;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr:first-child {
+  height: 40px;
+  background-color: #57419D;
+  color: #F5F5FA
+}
+
